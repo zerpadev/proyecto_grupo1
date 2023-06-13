@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(to bottom, #ffa500, #32cd32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+input[type="number"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+button:hover {
+    background-color: #45a049;
+  }
+  
+p#resultado {
+    font-size: 16px;
+    margin-top: 20px;
+  }
